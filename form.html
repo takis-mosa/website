@@ -1,0 +1,22 @@
+<html>
+<body>
+<form name="game" method="POST" data-netlify="true">
+  <p>
+    <label>Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Rating: <input type="number" name="rating" /></label>
+  </p>
+  <p>
+    <label>Genre: <select name="genre[]" multiple>
+      <option value="rpg">RPG</option>
+      <option value="fps">FPS</option>
+    </select></label>
+  </p>
+ 
+  <p>
+    <input type="submit" value="Send">
+  </p>
+</form>
+</body>
+</html>
